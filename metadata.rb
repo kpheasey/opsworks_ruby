@@ -14,6 +14,8 @@ depends 'nginx'
 depends 'logrotate'
 depends 'ruby-ng'
 depends 's3_file'
+depends 'nodejs'
+depends 'yarn'
 
 supports 'amazon', '>= 2017.03'
 supports 'ubuntu', '>= 16.04'
