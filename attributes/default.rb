@@ -103,6 +103,7 @@ default['defaults']['webserver']['log_level'] = 'info'
 default['defaults']['webserver']['remove_default_sites'] = %w[
   default default.conf 000-default 000-default.conf default-ssl default-ssl.conf
 ]
+default['defaults']['webserver']['force_ssl'] = false
 
 ## apache2
 
